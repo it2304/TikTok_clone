@@ -1,10 +1,13 @@
 import React from 'react';
 import Video_new from './Video';
 import './App.css';
+import Frontpage from './frontpage';
 
 function App() {
   return (
     <div className="app">
+      <Frontpage />
+
       <div className="app__videos">
         <Video_new 
           channel = "IrfanTamim"
@@ -14,7 +17,7 @@ function App() {
           comments = {223}
           shares = {333}
         />
-        
+
         <Video_new />
         <Video_new />
         <Video_new />

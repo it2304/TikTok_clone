@@ -1,0 +1,107 @@
+.frontpage {
+    border: none;
+}
+
+.app__logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 100px;
+    background-color: magenta;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+.frontpage h1 {
+    position: absolute; 
+    top: 25px;
+    left: 75px;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.search__bar {
+    position: absolute;
+    top: 100px;
+    left: 25px;
+    height: 40px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+.search__icon {
+    position: relative;
+    top: 8px;
+    left: 10px;
+}
+
+.search__input {
+    position: relative;
+    left: 20px;
+    color: white;
+    border: none;
+    background: transparent
+}
+
+.feed {
+    position: absolute;
+    top: 175px;
+    left: 25px;
+}
+
+.feed .home__icon {
+    position: relative;
+    top: 4px;
+}
+
+.feed h2 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.profile {
+    position: absolute;
+    top: 225px;
+    left: 25px;
+}
+
+.profile .profile__icon {
+    position: relative;
+    top: 4px;
+}
+
+.profile h2 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.credits {
+    position: absolute;
+    top: 350px;
+    left: 25px;
+}
+
+.credits .credits__icon {
+    position: relative;
+    top: 5px;
+}
+
+.credits h2 {
+    position: absolute;
+    top: 0;
+    left: 40px;
+    color: white;
+    font-size: 25px;
+}
+
+.credits h3 {
+    padding-top: 10px;
+}

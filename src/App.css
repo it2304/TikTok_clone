@@ -11,11 +11,11 @@ html {
 }
 .app__videos {
   position: relative;
-  height: 900px;
+  height: 1000px;
   border-radius: 20px;
   overflow: scroll;
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
   scroll-snap-type: y mandatory;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -24,4 +24,9 @@ html {
 /* This is for Chrome, safari and opera */
 .app__videos::-webkit-scrollbar {
   display: none;
+}
+
+.frontpage {
+  color: white;
+  border: 1px solid white;
 }
