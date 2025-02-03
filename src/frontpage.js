@@ -17,7 +17,7 @@ function Frontpage() {
         <div className="frontpage">
 
             <FastForwardIcon className="app__logo"/>
-            <h1>testTUBE</h1>
+            <h1>cyberTUBE</h1>
         
             <div className="search__bar">
                 <SearchIcon className="search__icon"/>
@@ -43,6 +43,7 @@ function Frontpage() {
                 <LoyaltyIcon className="credits__icon"/>
                 <h2>Credits</h2>
                 <h3> Irfan Tamim </h3>
+                <h3> Mahi Salaheen </h3>
                 <h3> 01.2025 </h3>
 
             </div>

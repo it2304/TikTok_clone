@@ -1,10 +1,9 @@
 import React, { useRef, useState } from 'react'
-import vid1 from './videos/vid1.mp4';
 import './Video.css'
 import VideoFooter from './VideoFooter';
 import VideoSidebar from './VideoSidebar';
 
-function Video_new({ channel, description, music, likes, shares, comments }) {
+function Video_new({ vidSrc, channel, description, music, likes, shares, comments }) {
     const [playing, setPlaying] = useState(false);
     const videoRef = useRef(null);
     
@@ -25,7 +24,7 @@ function Video_new({ channel, description, music, likes, shares, comments }) {
                 loop
                 onClick={onVideoPress}
                 ref={videoRef}
-                src={vid1}   
+                src={vidSrc}
             > </video>
             <VideoFooter 
                 channel={channel} 
